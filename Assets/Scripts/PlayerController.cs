@@ -7,15 +7,24 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rigidBody2D;
     private SpriteRenderer spriteRenderer;
     private Vector2 movementInput;
+    private Vector2 noMovement = new Vector2(0, 0);
     private float acceleration;
+    private Animator animator;
 
     public float moveSpeed;
+    public Vector2 faceDirection;
+    public Vector2 moveDirection;
     public float maxHealth, maxMana;
     public float currentHealth, currentMana;
 
     public void OnMove(InputValue value)
     {
         movementInput = value.Get<Vector2>();
+        if (movementInput != noMovement) 
+        { 
+            faceDirection = movementInput; 
+            moveDirection = movementInput * 2;
+        }
     }
 
     public void OnFire()
@@ -27,6 +36,7 @@ public class PlayerController : MonoBehaviour
     {
         rigidBody2D = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
 
         acceleration = moveSpeed;
 
@@ -43,6 +53,16 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         rigidBody2D.linearVelocity = movementInput * acceleration;
+        if (movementInput == noMovement) 
+        {
+            animator.SetFloat("MoveX", faceDirection.x);
+            animator.SetFloat("MoveY", faceDirection.y);
+        }
+        else
+        {
+            animator.SetFloat("MoveX", moveDirection.x);
+            animator.SetFloat("MoveY", moveDirection.y);
+        }
 
         FaceMouse();
     }
