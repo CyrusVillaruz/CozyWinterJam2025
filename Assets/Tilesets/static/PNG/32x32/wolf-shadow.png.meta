@@ -185,7 +185,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      wolf-shadow_0: -5439880934695347064
+      wolf-shadow_1: 6553027407059018188
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

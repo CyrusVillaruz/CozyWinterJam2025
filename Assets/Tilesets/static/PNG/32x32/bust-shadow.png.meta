@@ -185,7 +185,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bust-shadow_0: 1672347059426602767
+      bust-shadow_1: 555793146483033006
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

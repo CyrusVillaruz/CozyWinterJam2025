@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pedestal-shadow_0: -5487360498503924867
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
