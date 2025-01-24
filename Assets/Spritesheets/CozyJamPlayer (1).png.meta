@@ -1,103 +1,109 @@
 fileFormatVersion: 2
-guid: 220a9f70ad89c354f94770dee70ee6ef
+guid: 6077d0d9e686098468b1c35a4fca9c35
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6035500289446548734
-    second: CozyJamPlayer_0
+      213: 4061621253951396094
+    second: CozyJamPlayer (1)_0
   - first:
-      213: -2088135437547034736
-    second: CozyJamPlayer_1
+      213: 7177964574968853018
+    second: CozyJamPlayer (1)_1
   - first:
-      213: 2892334086221769599
-    second: CozyJamPlayer_2
+      213: 7450887708595444807
+    second: CozyJamPlayer (1)_2
   - first:
-      213: -2874788544216681023
-    second: CozyJamPlayer_3
+      213: 3417578512766880456
+    second: CozyJamPlayer (1)_3
   - first:
-      213: 4866176347390502576
-    second: CozyJamPlayer_4
+      213: 7486251214903886627
+    second: CozyJamPlayer (1)_4
   - first:
-      213: -4645281241324089442
-    second: CozyJamPlayer_5
+      213: -7645847452088171900
+    second: CozyJamPlayer (1)_5
   - first:
-      213: -8223183958928576147
-    second: CozyJamPlayer_6
+      213: 711468677319640840
+    second: CozyJamPlayer (1)_6
   - first:
-      213: 8098334224937074112
-    second: CozyJamPlayer_7
+      213: -280053494780308053
+    second: CozyJamPlayer (1)_7
   - first:
-      213: 3411981059391451161
-    second: CozyJamPlayer_8
+      213: -7601546071405491295
+    second: CozyJamPlayer (1)_8
   - first:
-      213: 6708257096855109326
-    second: CozyJamPlayer_9
+      213: 6438618365787425432
+    second: CozyJamPlayer (1)_9
   - first:
-      213: 8856401033482455054
-    second: CozyJamPlayer_10
+      213: -5104807634863895523
+    second: CozyJamPlayer (1)_10
   - first:
-      213: 2839507112125515192
-    second: CozyJamPlayer_11
+      213: -7012445777580596422
+    second: CozyJamPlayer (1)_11
   - first:
-      213: 4016612181409057147
-    second: CozyJamPlayer_12
+      213: 8620950504639871300
+    second: CozyJamPlayer (1)_12
   - first:
-      213: 4855774803730548712
-    second: CozyJamPlayer_13
+      213: 2288763017193979114
+    second: CozyJamPlayer (1)_13
   - first:
-      213: -2560482917517593848
-    second: CozyJamPlayer_14
+      213: -871315311072313002
+    second: CozyJamPlayer (1)_14
   - first:
-      213: 4131165355138052524
-    second: CozyJamPlayer_15
+      213: 7717161881097317585
+    second: CozyJamPlayer (1)_15
   - first:
-      213: 6724971537472695984
-    second: CozyJamPlayer_16
+      213: -6473782917130011475
+    second: CozyJamPlayer (1)_16
   - first:
-      213: 5887195925869144433
-    second: CozyJamPlayer_17
+      213: -1573672336075770196
+    second: CozyJamPlayer (1)_17
   - first:
-      213: 351417067284615217
-    second: CozyJamPlayer_18
+      213: 5537585196839618027
+    second: CozyJamPlayer (1)_18
   - first:
-      213: -1409315236054462160
-    second: CozyJamPlayer_19
+      213: -7260886580956414466
+    second: CozyJamPlayer (1)_19
   - first:
-      213: 9159186853885761565
-    second: CozyJamPlayer_20
+      213: 2716453611734855840
+    second: CozyJamPlayer (1)_20
   - first:
-      213: 8832046494264479919
-    second: CozyJamPlayer_21
+      213: -1462608100810197920
+    second: CozyJamPlayer (1)_21
   - first:
-      213: -6248309397942498772
-    second: CozyJamPlayer_22
+      213: -3781871238118700674
+    second: CozyJamPlayer (1)_22
   - first:
-      213: 3821079653960759925
-    second: CozyJamPlayer_23
+      213: -7438326585313250338
+    second: CozyJamPlayer (1)_23
   - first:
-      213: -1431308471674333854
-    second: CozyJamPlayer_24
+      213: 7723568087430270127
+    second: CozyJamPlayer (1)_24
   - first:
-      213: 8251099977926513133
-    second: CozyJamPlayer_25
+      213: -6887913133206327884
+    second: CozyJamPlayer (1)_25
   - first:
-      213: -3969469277524446690
-    second: CozyJamPlayer_26
+      213: -1783488439672480875
+    second: CozyJamPlayer (1)_26
   - first:
-      213: -7052368851376233443
-    second: CozyJamPlayer_27
+      213: -6755228485824028709
+    second: CozyJamPlayer (1)_27
   - first:
-      213: 7664037911050834068
-    second: CozyJamPlayer_28
+      213: -5623556190992447723
+    second: CozyJamPlayer (1)_28
   - first:
-      213: -5311788496582113581
-    second: CozyJamPlayer_29
+      213: -8332233243247510058
+    second: CozyJamPlayer (1)_29
   - first:
-      213: 1153109843685863833
-    second: CozyJamPlayer_30
+      213: -1418571085719611151
+    second: CozyJamPlayer (1)_30
   - first:
-      213: 2718746876107217851
-    second: CozyJamPlayer_31
+      213: -4291933195909082879
+    second: CozyJamPlayer (1)_31
+  - first:
+      213: -686111265393913387
+    second: CozyJamPlayer (1)_32
+  - first:
+      213: 6128064234129058076
+    second: CozyJamPlayer (1)_33
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -130,7 +136,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -144,7 +150,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -168,7 +174,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -219,56 +225,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CozyJamPlayer_0
+      name: CozyJamPlayer (1)_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 159
-        width: 23
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ef49a3a298762c350800000000000000
-      internalID: 6035500289446548734
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CozyJamPlayer_1
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 127
-        width: 23
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 097aa1a02e37503e0800000000000000
-      internalID: -2088135437547034736
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CozyJamPlayer_2
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 159
-        width: 25
+        x: 0
+        y: 160
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -278,173 +240,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f7ba005f682a32820800000000000000
-      internalID: 2892334086221769599
+      spriteID: ef813f5d207cd5830800000000000000
+      internalID: 4061621253951396094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CozyJamPlayer_3
+      name: CozyJamPlayer (1)_1
       rect:
         serializedVersion: 2
-        x: 36
-        y: 127
-        width: 23
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1c53a91ec03ba18d0800000000000000
-      internalID: -2874788544216681023
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CozyJamPlayer_4
-      rect:
-        serializedVersion: 2
-        x: 68
-        y: 159
-        width: 23
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0b66e981b91288340800000000000000
-      internalID: 4866176347390502576
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CozyJamPlayer_5
-      rect:
-        serializedVersion: 2
-        x: 68
-        y: 127
-        width: 23
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e9f8711a255a88fb0800000000000000
-      internalID: -4645281241324089442
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CozyJamPlayer_6
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 159
-        width: 23
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d613f55f1c161ed80800000000000000
-      internalID: -8223183958928576147
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CozyJamPlayer_7
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 127
-        width: 23
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0cd33cd1210136070800000000000000
-      internalID: 8098334224937074112
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CozyJamPlayer_8
-      rect:
-        serializedVersion: 2
-        x: 130
-        y: 127
-        width: 23
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 910736132bac95f20800000000000000
-      internalID: 3411981059391451161
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CozyJamPlayer_9
-      rect:
-        serializedVersion: 2
-        x: 131
-        y: 159
-        width: 25
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eceba08a944881d50800000000000000
-      internalID: 6708257096855109326
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CozyJamPlayer_10
-      rect:
-        serializedVersion: 2
-        x: 161
-        y: 127
-        width: 24
+        x: 32
+        y: 160
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -454,63 +262,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e08cf1511d148ea70800000000000000
-      internalID: 8856401033482455054
+      spriteID: a123b5d10c04d9360800000000000000
+      internalID: 7177964574968853018
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CozyJamPlayer_11
+      name: CozyJamPlayer (1)_2
       rect:
         serializedVersion: 2
-        x: 164
-        y: 159
-        width: 23
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8b5cf639ca4f76720800000000000000
-      internalID: 2839507112125515192
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CozyJamPlayer_12
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 95
-        width: 23
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b79c4618f7fddb730800000000000000
-      internalID: 4016612181409057147
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CozyJamPlayer_13
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 63
-        width: 24
+        x: 64
+        y: 160
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -520,19 +284,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8e7c6adf47d236340800000000000000
-      internalID: 4855774803730548712
+      spriteID: 74cd72cf4eed66760800000000000000
+      internalID: 7450887708595444807
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CozyJamPlayer_14
+      name: CozyJamPlayer (1)_3
       rect:
         serializedVersion: 2
-        x: 34
-        y: 95
-        width: 25
+        x: 96
+        y: 160
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -542,41 +306,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 80378ef3a56577cd0800000000000000
-      internalID: -2560482917517593848
+      spriteID: 8ca4a7ddc8dad6f20800000000000000
+      internalID: 3417578512766880456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CozyJamPlayer_15
+      name: CozyJamPlayer (1)_4
       rect:
         serializedVersion: 2
-        x: 39
-        y: 63
-        width: 23
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ca1776da009d45930800000000000000
-      internalID: 4131165355138052524
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CozyJamPlayer_16
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 95
-        width: 25
+        x: 128
+        y: 160
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -586,19 +328,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0be2caf9bf5e35d50800000000000000
-      internalID: 6724971537472695984
+      spriteID: 323ceabe0d184e760800000000000000
+      internalID: 7486251214903886627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CozyJamPlayer_17
+      name: CozyJamPlayer (1)_5
       rect:
         serializedVersion: 2
-        x: 69
-        y: 63
-        width: 25
+        x: 160
+        y: 160
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -608,19 +350,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 179ae8cb08583b150800000000000000
-      internalID: 5887195925869144433
+      spriteID: 4828573704e74e590800000000000000
+      internalID: -7645847452088171900
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CozyJamPlayer_18
+      name: CozyJamPlayer (1)_6
       rect:
         serializedVersion: 2
-        x: 97
-        y: 95
-        width: 25
+        x: 0
+        y: 128
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -630,19 +372,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1305287f5fb70e400800000000000000
-      internalID: 351417067284615217
+      spriteID: 80744741ef4afd900800000000000000
+      internalID: 711468677319640840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CozyJamPlayer_19
+      name: CozyJamPlayer (1)_7
       rect:
         serializedVersion: 2
-        x: 102
-        y: 63
-        width: 25
+        x: 32
+        y: 128
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -652,63 +394,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0319d6a724b117ce0800000000000000
-      internalID: -1409315236054462160
+      spriteID: ba5538d84dc0d1cf0800000000000000
+      internalID: -280053494780308053
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CozyJamPlayer_20
+      name: CozyJamPlayer (1)_8
       rect:
         serializedVersion: 2
-        x: 132
-        y: 63
-        width: 23
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d18d9498ae7fb1f70800000000000000
-      internalID: 9159186853885761565
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CozyJamPlayer_21
-      rect:
-        serializedVersion: 2
-        x: 135
-        y: 95
-        width: 23
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fa05e5a0e7bb19a70800000000000000
-      internalID: 8832046494264479919
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CozyJamPlayer_22
-      rect:
-        serializedVersion: 2
-        x: 163
-        y: 63
-        width: 25
+        x: 64
+        y: 128
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -718,20 +416,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c2a07e025bb8949a0800000000000000
-      internalID: -6248309397942498772
+      spriteID: 1ab0c1e6f12e18690800000000000000
+      internalID: -7601546071405491295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CozyJamPlayer_23
+      name: CozyJamPlayer (1)_9
       rect:
         serializedVersion: 2
-        x: 167
-        y: 95
-        width: 23
-        height: 33
+        x: 96
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -740,20 +438,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 57abdc843b3370530800000000000000
-      internalID: 3821079653960759925
+      spriteID: 89ac0195a419a5950800000000000000
+      internalID: 6438618365787425432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CozyJamPlayer_24
+      name: CozyJamPlayer (1)_10
       rect:
         serializedVersion: 2
-        x: 3
-        y: 31
-        width: 25
-        height: 31
+        x: 128
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -762,20 +460,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 26518d54788f22ce0800000000000000
-      internalID: -1431308471674333854
+      spriteID: d1c4c35a0841829b0800000000000000
+      internalID: -5104807634863895523
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CozyJamPlayer_25
+      name: CozyJamPlayer (1)_11
       rect:
         serializedVersion: 2
-        x: 39
-        y: 40
-        width: 6
-        height: 15
+        x: 160
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -784,20 +482,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: de11b86b6bbc18270800000000000000
-      internalID: 8251099977926513133
+      spriteID: a33ee9408b9ceae90800000000000000
+      internalID: -7012445777580596422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CozyJamPlayer_26
+      name: CozyJamPlayer (1)_12
       rect:
         serializedVersion: 2
-        x: 71
-        y: 40
-        width: 11
-        height: 21
+        x: 0
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -806,20 +504,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e12345629bc99e8c0800000000000000
-      internalID: -3969469277524446690
+      spriteID: 449b847eec4c3a770800000000000000
+      internalID: 8620950504639871300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CozyJamPlayer_27
+      name: CozyJamPlayer (1)_13
       rect:
         serializedVersion: 2
-        x: 103
-        y: 40
-        width: 13
-        height: 21
+        x: 32
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -828,20 +526,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d14a0bc05e3f02e90800000000000000
-      internalID: -7052368851376233443
+      spriteID: aecf5e676d153cf10800000000000000
+      internalID: 2288763017193979114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CozyJamPlayer_28
+      name: CozyJamPlayer (1)_14
       rect:
         serializedVersion: 2
-        x: 135
-        y: 40
-        width: 15
-        height: 21
+        x: 64
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -850,20 +548,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 490df41dfd12c5a60800000000000000
-      internalID: 7664037911050834068
+      spriteID: 6510d2c475778e3f0800000000000000
+      internalID: -871315311072313002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CozyJamPlayer_29
+      name: CozyJamPlayer (1)_15
       rect:
         serializedVersion: 2
-        x: 169
-        y: 46
-        width: 13
-        height: 15
+        x: 96
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -872,20 +570,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3d68733618cb846b0800000000000000
-      internalID: -5311788496582113581
+      spriteID: 1dcadf4f7ddd81b60800000000000000
+      internalID: 7717161881097317585
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CozyJamPlayer_30
+      name: CozyJamPlayer (1)_16
       rect:
         serializedVersion: 2
-        x: 11
-        y: 15
-        width: 11
-        height: 14
+        x: 128
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -894,20 +592,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 991f6eb1b4ba00010800000000000000
-      internalID: 1153109843685863833
+      spriteID: dac39778cb08826a0800000000000000
+      internalID: -6473782917130011475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CozyJamPlayer_31
+      name: CozyJamPlayer (1)_17
       rect:
         serializedVersion: 2
-        x: 48
-        y: 15
-        width: 6
-        height: 13
+        x: 160
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -916,8 +614,360 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bbbd29811edeab520800000000000000
-      internalID: 2718746876107217851
+      spriteID: ca638571951392ae0800000000000000
+      internalID: -1573672336075770196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CozyJamPlayer (1)_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be5461ba56479dc40800000000000000
+      internalID: 5537585196839618027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CozyJamPlayer (1)_19
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd31bbdf162c3b90800000000000000
+      internalID: -7260886580956414466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CozyJamPlayer (1)_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a07840ea28c2b520800000000000000
+      internalID: 2716453611734855840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CozyJamPlayer (1)_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06479997ea5c3bbe0800000000000000
+      internalID: -1462608100810197920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CozyJamPlayer (1)_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e790ba96528148bc0800000000000000
+      internalID: -3781871238118700674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CozyJamPlayer (1)_23
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed33f0f6161c5c890800000000000000
+      internalID: -7438326585313250338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CozyJamPlayer (1)_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac03d91140af2b60800000000000000
+      internalID: 7723568087430270127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CozyJamPlayer (1)_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd2d73cf773960a0800000000000000
+      internalID: -6887913133206327884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CozyJamPlayer (1)_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59b5e44a6b6cf37e0800000000000000
+      internalID: -1783488439672480875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CozyJamPlayer (1)_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdfdbdd9b7b9042a0800000000000000
+      internalID: -6755228485824028709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CozyJamPlayer (1)_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 517427d607d15f1b0800000000000000
+      internalID: -5623556190992447723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CozyJamPlayer (1)_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ddf786e206fd5c80800000000000000
+      internalID: -8332233243247510058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CozyJamPlayer (1)_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8da0b0d19305ce0800000000000000
+      internalID: -1418571085719611151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CozyJamPlayer (1)_31
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101d12a7f7dff64c0800000000000000
+      internalID: -4291933195909082879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CozyJamPlayer (1)_32
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d15dc570717a76f0800000000000000
+      internalID: -686111265393913387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CozyJamPlayer (1)_33
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19e90cf3f14b0550800000000000000
+      internalID: 6128064234129058076
       vertices: []
       indices: 
       edges: []
@@ -926,7 +976,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 72d057e8bf6027a4ea0d424ab3924b55
     internalID: 0
     vertices: []
     indices: 
@@ -935,7 +985,41 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CozyJamPlayer (1)_0: 4061621253951396094
+      CozyJamPlayer (1)_1: 7177964574968853018
+      CozyJamPlayer (1)_10: -5104807634863895523
+      CozyJamPlayer (1)_11: -7012445777580596422
+      CozyJamPlayer (1)_12: 8620950504639871300
+      CozyJamPlayer (1)_13: 2288763017193979114
+      CozyJamPlayer (1)_14: -871315311072313002
+      CozyJamPlayer (1)_15: 7717161881097317585
+      CozyJamPlayer (1)_16: -6473782917130011475
+      CozyJamPlayer (1)_17: -1573672336075770196
+      CozyJamPlayer (1)_18: 5537585196839618027
+      CozyJamPlayer (1)_19: -7260886580956414466
+      CozyJamPlayer (1)_2: 7450887708595444807
+      CozyJamPlayer (1)_20: 2716453611734855840
+      CozyJamPlayer (1)_21: -1462608100810197920
+      CozyJamPlayer (1)_22: -3781871238118700674
+      CozyJamPlayer (1)_23: -7438326585313250338
+      CozyJamPlayer (1)_24: 7723568087430270127
+      CozyJamPlayer (1)_25: -6887913133206327884
+      CozyJamPlayer (1)_26: -1783488439672480875
+      CozyJamPlayer (1)_27: -6755228485824028709
+      CozyJamPlayer (1)_28: -5623556190992447723
+      CozyJamPlayer (1)_29: -8332233243247510058
+      CozyJamPlayer (1)_3: 3417578512766880456
+      CozyJamPlayer (1)_30: -1418571085719611151
+      CozyJamPlayer (1)_31: -4291933195909082879
+      CozyJamPlayer (1)_32: -686111265393913387
+      CozyJamPlayer (1)_33: 6128064234129058076
+      CozyJamPlayer (1)_4: 7486251214903886627
+      CozyJamPlayer (1)_5: -7645847452088171900
+      CozyJamPlayer (1)_6: 711468677319640840
+      CozyJamPlayer (1)_7: -280053494780308053
+      CozyJamPlayer (1)_8: -7601546071405491295
+      CozyJamPlayer (1)_9: 6438618365787425432
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
