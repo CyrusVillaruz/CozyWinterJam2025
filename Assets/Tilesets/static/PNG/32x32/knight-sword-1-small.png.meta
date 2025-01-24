@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      knight-sword-1-small_0: 2356267480933737404
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

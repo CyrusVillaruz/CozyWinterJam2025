@@ -285,7 +285,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      owls_0: -1289584691885483868
+      owls_1: 3123336911685588794
+      owls_2: 7885660874674516737
+      owls_3: 1381450352554574676
+      owls_4: -3791346198736001916
+      owls_5: 8322340564366402548
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

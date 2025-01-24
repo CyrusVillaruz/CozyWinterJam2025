@@ -185,7 +185,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      angel-shadow_0: 5033482360338276788
+      angel-shadow_1: -6391517936496429296
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

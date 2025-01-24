@@ -610,7 +610,26 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      lpc-tileset-buildings_0: -58612764309345615
+      lpc-tileset-buildings_1: -8203155646244909
+      lpc-tileset-buildings_10: 4554241661826920205
+      lpc-tileset-buildings_11: 8439905022394321546
+      lpc-tileset-buildings_12: 6580943985164305508
+      lpc-tileset-buildings_13: -7414413875243919698
+      lpc-tileset-buildings_14: 4541093125183959347
+      lpc-tileset-buildings_15: -3936700521925655893
+      lpc-tileset-buildings_16: -8336851456069044580
+      lpc-tileset-buildings_17: -109229646626682599
+      lpc-tileset-buildings_18: 9149518508613334367
+      lpc-tileset-buildings_2: 8816615683174940724
+      lpc-tileset-buildings_3: -4821830634393824957
+      lpc-tileset-buildings_4: 5038665679479286774
+      lpc-tileset-buildings_5: 4783843275030471091
+      lpc-tileset-buildings_6: 4996176997584300707
+      lpc-tileset-buildings_7: -3835908674982729421
+      lpc-tileset-buildings_8: 8468651331894839314
+      lpc-tileset-buildings_9: 3905203345215155636
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

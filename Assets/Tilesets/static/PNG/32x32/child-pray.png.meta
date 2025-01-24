@@ -185,7 +185,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      child-pray_0: 4634663998267985433
+      child-pray_1: -1600584984113338125
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -185,7 +185,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      child-pray-shadow_0: 8420813300533950839
+      child-pray-shadow_1: 4642448313726320471
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
