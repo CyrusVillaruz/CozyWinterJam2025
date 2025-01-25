@@ -19,6 +19,8 @@ public class PlayerController : MonoBehaviour
     public Vector2 moveDirection;
     public float maxHealth, maxMana;
     public float healthRegenRate, manaRegenRate;
+    public Transform shootingPoint;
+    public GameObject fireballPrefab;
 
     public void OnMove(InputValue value)
     {
@@ -50,7 +52,7 @@ public class PlayerController : MonoBehaviour
         manaBar.SetMaxMana(maxMana);
     }
 
-    
+
     private void Update()
     {
         if (currentHealth > maxHealth) currentHealth = maxHealth;
@@ -60,6 +62,11 @@ public class PlayerController : MonoBehaviour
         if (currentMana > maxMana) currentMana = maxMana;
         else currentMana += manaRegenRate * Time.deltaTime;
         manaBar.SetMana(currentMana);
+
+        if (Keyboard.current.spaceKey.wasPressedThisFrame)
+        {
+            Instantiate(fireballPrefab, shootingPoint.position, shootingPoint.rotation);
+        }
     }
 
     private void FixedUpdate()
