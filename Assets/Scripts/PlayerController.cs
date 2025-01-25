@@ -4,11 +4,12 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
 
+    [HideInInspector] public float acceleration;
+    [HideInInspector] public Vector2 movementInput;
+    
     private Rigidbody2D rigidBody2D;
     private SpriteRenderer spriteRenderer;
-    private Vector2 movementInput;
     private Vector2 noMovement = new Vector2(0, 0);
-    private float acceleration;
     private Animator animator;
 
     public float moveSpeed;
@@ -82,5 +83,10 @@ public class PlayerController : MonoBehaviour
         {
             spriteRenderer.flipX = true;
         }
+    }
+
+    public void ConsumeMana(float mana)
+    {
+        currentMana -= mana;
     }
 }
