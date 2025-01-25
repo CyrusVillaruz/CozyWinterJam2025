@@ -935,7 +935,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CozyJamPlayer_0: 6035500289446548734
+      CozyJamPlayer_1: -2088135437547034736
+      CozyJamPlayer_10: 8856401033482455054
+      CozyJamPlayer_11: 2839507112125515192
+      CozyJamPlayer_12: 4016612181409057147
+      CozyJamPlayer_13: 4855774803730548712
+      CozyJamPlayer_14: -2560482917517593848
+      CozyJamPlayer_15: 4131165355138052524
+      CozyJamPlayer_16: 6724971537472695984
+      CozyJamPlayer_17: 5887195925869144433
+      CozyJamPlayer_18: 351417067284615217
+      CozyJamPlayer_19: -1409315236054462160
+      CozyJamPlayer_2: 2892334086221769599
+      CozyJamPlayer_20: 9159186853885761565
+      CozyJamPlayer_21: 8832046494264479919
+      CozyJamPlayer_22: -6248309397942498772
+      CozyJamPlayer_23: 3821079653960759925
+      CozyJamPlayer_24: -1431308471674333854
+      CozyJamPlayer_25: 8251099977926513133
+      CozyJamPlayer_26: -3969469277524446690
+      CozyJamPlayer_27: -7052368851376233443
+      CozyJamPlayer_28: 7664037911050834068
+      CozyJamPlayer_29: -5311788496582113581
+      CozyJamPlayer_3: -2874788544216681023
+      CozyJamPlayer_30: 1153109843685863833
+      CozyJamPlayer_31: 2718746876107217851
+      CozyJamPlayer_4: 4866176347390502576
+      CozyJamPlayer_5: -4645281241324089442
+      CozyJamPlayer_6: -8223183958928576147
+      CozyJamPlayer_7: 8098334224937074112
+      CozyJamPlayer_8: 3411981059391451161
+      CozyJamPlayer_9: 6708257096855109326
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
