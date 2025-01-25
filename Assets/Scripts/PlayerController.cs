@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     private Vector2 noMovement = new Vector2(0, 0);
     private Animator animator;
 
+    public Rigidbody2D rotator;
     public PlayerBars healthBar, manaBar;
     public float moveSpeed;
     public Vector2 faceDirection;
@@ -72,6 +73,7 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         rigidBody2D.linearVelocity = movementInput * acceleration;
+        rotator.transform.position = this.transform.position;
         if (movementInput == noMovement) 
         {
             animator.SetFloat("MoveX", faceDirection.x);
@@ -93,13 +95,13 @@ public class PlayerController : MonoBehaviour
         mousePos.z = 10f;
         Vector3 objectPos = Camera.main.WorldToScreenPoint(transform.position);
         mousePos.x -= objectPos.x;
-        if (mousePos.x > 0)
-        {
-            spriteRenderer.flipX = false;
-        }
-        else if (mousePos.x < 0)
+        if ((mousePos.x > 0 && faceDirection.x < 0) || (mousePos.x < 0 && faceDirection.x > 0))
         {
             spriteRenderer.flipX = true;
+        }
+        else
+        {
+            spriteRenderer.flipX = false;
         }
     }
 
