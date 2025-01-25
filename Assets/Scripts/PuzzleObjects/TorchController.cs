@@ -23,6 +23,7 @@ public class Torch : MonoBehaviour
         if (!lit) 
         { 
             lit = true;
+            animator.SetFloat("Lit", 1);
         }
     }
 
@@ -31,6 +32,7 @@ public class Torch : MonoBehaviour
         if (lit)
         {
             lit = false;
+            animator.SetFloat("Lit", 0);
         }
     }
 }
