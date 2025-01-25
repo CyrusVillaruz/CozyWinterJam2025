@@ -4,6 +4,7 @@ public class Fireball : MonoBehaviour
 {
 
     public float speed;
+    public float lifeTime;
     private Rigidbody2D rb;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -11,6 +12,7 @@ public class Fireball : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         rb.linearVelocity = transform.up * speed;
+        Destroy(gameObject, lifeTime);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -21,11 +23,5 @@ public class Fireball : MonoBehaviour
         {
             torch.lightUp();
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
