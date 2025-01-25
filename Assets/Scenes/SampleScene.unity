@@ -548,8 +548,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 661972246}
   - {fileID: 1219073258}
+  - {fileID: 661972246}
   m_Father: {fileID: 546258880}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -820,6 +820,7 @@ GameObject:
   m_Component:
   - component: {fileID: 661972246}
   - component: {fileID: 661972247}
+  - component: {fileID: 661972248}
   m_Layer: 0
   m_Name: ManaBar
   m_TagString: Untagged
@@ -899,6 +900,19 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &661972248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661972245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee76ffd44df5a8647ac9b003a0493254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 661972247}
 --- !u!1 &872021523
 GameObject:
   m_ObjectHideFlags: 0
@@ -1556,13 +1570,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   acceleration: 0
   movementInput: {x: 0, y: 0}
+  currentHealth: 0
+  currentMana: 0
+  healthBar: {fileID: 1219073260}
+  manaBar: {fileID: 661972248}
   moveSpeed: 10
   faceDirection: {x: 0, y: 0}
   moveDirection: {x: 0, y: 0}
   maxHealth: 10
   maxMana: 10
-  currentHealth: 0
-  currentMana: 0
+  healthRegenRate: 1
+  manaRegenRate: 1
 --- !u!114 &1200129071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1587,6 +1605,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1219073258}
   - component: {fileID: 1219073259}
+  - component: {fileID: 1219073260}
   m_Layer: 0
   m_Name: HealthBar
   m_TagString: Untagged
@@ -1666,6 +1685,19 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1219073260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219073257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee76ffd44df5a8647ac9b003a0493254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 1219073259}
 --- !u!1 &1394940784
 GameObject:
   m_ObjectHideFlags: 0

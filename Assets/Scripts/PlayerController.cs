@@ -6,17 +6,19 @@ public class PlayerController : MonoBehaviour
 
     [HideInInspector] public float acceleration;
     [HideInInspector] public Vector2 movementInput;
-    
+    [HideInInspector] public float currentHealth, currentMana;
+
     private Rigidbody2D rigidBody2D;
     private SpriteRenderer spriteRenderer;
     private Vector2 noMovement = new Vector2(0, 0);
     private Animator animator;
 
+    public PlayerBars healthBar, manaBar;
     public float moveSpeed;
     public Vector2 faceDirection;
     public Vector2 moveDirection;
     public float maxHealth, maxMana;
-    public float currentHealth, currentMana;
+    public float healthRegenRate, manaRegenRate;
 
     public void OnMove(InputValue value)
     {
@@ -42,13 +44,22 @@ public class PlayerController : MonoBehaviour
         acceleration = moveSpeed;
 
         currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
+
         currentMana = maxMana;
+        manaBar.SetMaxMana(maxMana);
     }
 
     
     private void Update()
     {
+        if (currentHealth > maxHealth) currentHealth = maxHealth;
+        else currentHealth += healthRegenRate * Time.deltaTime;
+        healthBar.SetHealth(currentHealth);
 
+        if (currentMana > maxMana) currentMana = maxMana;
+        else currentMana += manaRegenRate * Time.deltaTime;
+        manaBar.SetMana(currentMana);
     }
 
     private void FixedUpdate()
