@@ -5,6 +5,7 @@ public class Fireball : MonoBehaviour
 
     public float speed;
     public float lifeTime;
+    public float damage;
     private Rigidbody2D rb;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -22,6 +23,16 @@ public class Fireball : MonoBehaviour
         if (torch != null )
         {
             torch.lightUp();
+        }
+
+
+
+        if (collision.CompareTag("Enemy"))
+        {
+            EnemyController enemyRef = collision.gameObject.GetComponent<EnemyController>();
+            if (enemyRef.canDamage) enemyRef.TakeDamage(damage);
+            Debug.Log("Collided with enemy");
+            Destroy(gameObject);
         }
     }
 }

@@ -168,6 +168,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 14
   lifeTime: 2.5
+  damage: 10
 --- !u!95 &-2841749282741342259
 Animator:
   serializedVersion: 7

@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
@@ -13,15 +15,26 @@ public class PlayerController : MonoBehaviour
     private Vector2 noMovement = new Vector2(0, 0);
     private Animator animator;
 
-    public Rigidbody2D rotator;
-    public PlayerBars healthBar, manaBar;
+    [Header("Player Data")]
+    public PlayerBars healthBar;
+    public PlayerBars manaBar;
     public float moveSpeed;
     public Vector2 faceDirection;
     public Vector2 moveDirection;
     public float maxHealth, maxMana;
     public float healthRegenRate, manaRegenRate;
+    public float knockbackForce;
+
+    [Header("Fireball")]
+    public Rigidbody2D rotator;
     public Transform shootingPoint;
     public GameObject fireballPrefab;
+    public float fireballManaCost;
+
+    [Header("I-Frames")]
+    public float iframeDuration;
+    public bool isInvincible = false;
+    public bool canDamage = true;
 
     public void OnMove(InputValue value)
     {
@@ -67,6 +80,7 @@ public class PlayerController : MonoBehaviour
         if (Keyboard.current.spaceKey.wasPressedThisFrame)
         {
             Instantiate(fireballPrefab, shootingPoint.position, shootingPoint.rotation);
+            ConsumeMana(fireballManaCost);
         }
     }
 
@@ -108,5 +122,33 @@ public class PlayerController : MonoBehaviour
     public void ConsumeMana(float mana)
     {
         currentMana -= mana;
+    }
+
+    public void TakeDamage(float damage, Vector2 knockbackDirection)
+    {
+        currentHealth -= damage;
+        healthBar.SetHealth(currentHealth);
+
+        rigidBody2D.AddForce(knockbackDirection * knockbackForce, ForceMode2D.Impulse);
+
+        if (currentHealth <= 0)
+        {
+            // Restart the level
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+        StartCoroutine(InvincibilityCountdown());
+    }
+
+    private IEnumerator InvincibilityCountdown()
+    {
+        canDamage = false;
+        for (float i = 0f; i < iframeDuration; i += Time.deltaTime)
+        {
+            spriteRenderer.enabled = !spriteRenderer.enabled;
+            yield return null;
+        }
+
+        spriteRenderer.enabled = true;
+        canDamage = true;
     }
 }
