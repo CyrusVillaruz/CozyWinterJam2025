@@ -9,6 +9,7 @@ public class EnemyController : MonoBehaviour
     private SpriteRenderer sr;
     private Rigidbody2D rb;
     private Animator anim;
+    private bool isPlayerDetected = false;
 
     public float maxHealth;
     public float currentHealth;
@@ -33,7 +34,7 @@ public class EnemyController : MonoBehaviour
         Vector2 toPlayer = player.position - transform.position;
         toPlayer.Normalize();
 
-        Move(toPlayer);
+        if (isPlayerDetected) Move(toPlayer);
 
         Debug.Log("Player PositionX: " + toPlayer.x + " Player PositionY: " + toPlayer.y);
     }
@@ -90,6 +91,22 @@ public class EnemyController : MonoBehaviour
 
             PlayerController player = collision.gameObject.GetComponent<PlayerController>();
             if (player.canDamage) player.TakeDamage(damage, knockbackDirection);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            isPlayerDetected = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            isPlayerDetected = false;
         }
     }
 }

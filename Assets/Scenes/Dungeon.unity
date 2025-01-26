@@ -569,7 +569,7 @@ MonoBehaviour:
   rotator: {fileID: 521652741}
   shootingPoint: {fileID: 1790574674}
   fireballPrefab: {fileID: 2816330250925243416, guid: 119b07aa4e7de694f803d9839a19eff3, type: 3}
-  fireballManaCost: 10
+  fireballManaCost: 15
   iframeDuration: 0.5
   isInvincible: 0
   canDamage: 1
@@ -22823,6 +22823,7 @@ GameObject:
   - component: {fileID: 1869266529}
   - component: {fileID: 1869266530}
   - component: {fileID: 1869266531}
+  - component: {fileID: 1869266532}
   m_Layer: 6
   m_Name: Enemy
   m_TagString: Enemy
@@ -22894,7 +22895,7 @@ Transform:
   m_GameObject: {fileID: 1869266525}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 46.72, y: 4.81, z: 0}
+  m_LocalPosition: {x: 1.12, y: 2.25, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23015,6 +23016,42 @@ MonoBehaviour:
   movementSpeed: 60
   iframeDuration: 0.5
   canDamage: 1
+--- !u!58 &1869266532
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869266525}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: -0.3}
+  m_Radius: 5
 --- !u!1 &1907934866
 GameObject:
   m_ObjectHideFlags: 0
