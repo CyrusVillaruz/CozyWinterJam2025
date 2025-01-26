@@ -14,17 +14,24 @@ public class PlayerController : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private Vector2 noMovement = new Vector2(0, 0);
     private Animator animator;
-    public float knockbackForce;
 
-    public Rigidbody2D rotator;
-    public PlayerBars healthBar, manaBar;
+    [Header("Player Data")]
+    public PlayerBars healthBar;
+    public PlayerBars manaBar;
     public float moveSpeed;
     public Vector2 faceDirection;
     public Vector2 moveDirection;
     public float maxHealth, maxMana;
     public float healthRegenRate, manaRegenRate;
+    public float knockbackForce;
+
+    [Header("Fireball")]
+    public Rigidbody2D rotator;
     public Transform shootingPoint;
     public GameObject fireballPrefab;
+    public float fireballManaCost;
+
+    [Header("I-Frames")]
     public float iframeDuration;
     public bool isInvincible = false;
     public bool canDamage = true;
@@ -73,6 +80,7 @@ public class PlayerController : MonoBehaviour
         if (Keyboard.current.spaceKey.wasPressedThisFrame)
         {
             Instantiate(fireballPrefab, shootingPoint.position, shootingPoint.rotation);
+            ConsumeMana(fireballManaCost);
         }
     }
 

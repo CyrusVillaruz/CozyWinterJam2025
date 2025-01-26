@@ -15,6 +15,8 @@ public class EnemyController : MonoBehaviour
     public float knockbackForce;
     public float damage;
     public float movementSpeed;
+    public float iframeDuration;
+    public bool canDamage = true;
 
     private void Start()
     {
@@ -50,6 +52,27 @@ public class EnemyController : MonoBehaviour
         if (currentHealth <= 0) DestroyEnemy();
 
         rb.AddForce(knockbackDirection * knockbackForce, ForceMode2D.Impulse);
+        StartCoroutine(InvincibilityCountdown());
+    }
+
+    private IEnumerator InvincibilityCountdown()
+    {
+        canDamage = false;
+        for (float i = 0f; i < iframeDuration; i += Time.deltaTime)
+        {
+            sr.enabled = !sr.enabled;
+            yield return null;
+        }
+
+        sr.enabled = true;
+        canDamage = true;
+    }
+    
+    public void TakeDamage(float damage)
+    {
+        currentHealth -= damage;
+        if (currentHealth <= 0) DestroyEnemy();
+        StartCoroutine(InvincibilityCountdown());
     }
 
     private void DestroyEnemy()

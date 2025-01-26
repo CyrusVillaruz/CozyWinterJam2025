@@ -556,8 +556,6 @@ MonoBehaviour:
   movementInput: {x: 0, y: 0}
   currentHealth: 0
   currentMana: 0
-  knockbackForce: 8
-  rotator: {fileID: 521652741}
   healthBar: {fileID: 603950401}
   manaBar: {fileID: 1543812340}
   moveSpeed: 7
@@ -567,8 +565,11 @@ MonoBehaviour:
   maxMana: 100
   healthRegenRate: 10
   manaRegenRate: 10
+  knockbackForce: 8
+  rotator: {fileID: 521652741}
   shootingPoint: {fileID: 1790574674}
   fireballPrefab: {fileID: 2816330250925243416, guid: 119b07aa4e7de694f803d9839a19eff3, type: 3}
+  fireballManaCost: 10
   iframeDuration: 0.5
   isInvincible: 0
   canDamage: 1
@@ -23007,11 +23008,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 622942850}
-  maxHealth: 200
+  maxHealth: 60
   currentHealth: 0
   knockbackForce: 50
   damage: 10
-  movementSpeed: 45
+  movementSpeed: 60
+  iframeDuration: 0.5
+  canDamage: 1
 --- !u!1 &1907934866
 GameObject:
   m_ObjectHideFlags: 0
