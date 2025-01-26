@@ -84,6 +84,19 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private void OnClick()
+    {
+        StartCoroutine(Slash());
+    }
+
+    private IEnumerator Slash()
+    {
+        shootingPoint.GetComponent<Sword>().attacking = true;
+        yield return new WaitForSeconds(0.3f);
+        Debug.Log("Attack");
+        shootingPoint.GetComponent<Sword>().attacking = false;
+    }
+
     private void FixedUpdate()
     {
         rigidBody2D.linearVelocity = movementInput * acceleration;
