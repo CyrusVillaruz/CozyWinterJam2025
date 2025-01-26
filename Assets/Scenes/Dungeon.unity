@@ -556,7 +556,7 @@ MonoBehaviour:
   movementInput: {x: 0, y: 0}
   currentHealth: 0
   currentMana: 0
-  knockbackForce: 0
+  knockbackForce: 8
   rotator: {fileID: 521652741}
   healthBar: {fileID: 603950401}
   manaBar: {fileID: 1543812340}
@@ -569,6 +569,9 @@ MonoBehaviour:
   manaRegenRate: 10
   shootingPoint: {fileID: 1790574674}
   fireballPrefab: {fileID: 2816330250925243416, guid: 119b07aa4e7de694f803d9839a19eff3, type: 3}
+  iframeDuration: 0.5
+  isInvincible: 0
+  canDamage: 1
 --- !u!212 &622942849
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22819,7 +22822,7 @@ GameObject:
   - component: {fileID: 1869266529}
   - component: {fileID: 1869266530}
   - component: {fileID: 1869266531}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -22890,8 +22893,8 @@ Transform:
   m_GameObject: {fileID: 1869266525}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 46.95, y: -8.19, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalPosition: {x: 46.72, y: 4.81, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -23004,11 +23007,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 622942850}
-  maxHealth: 20
+  maxHealth: 200
   currentHealth: 0
-  knockbackForce: 5
-  damage: 1
-  movementSpeed: 300
+  knockbackForce: 50
+  damage: 10
+  movementSpeed: 45
 --- !u!1 &1907934866
 GameObject:
   m_ObjectHideFlags: 0

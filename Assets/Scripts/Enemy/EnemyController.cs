@@ -16,7 +16,7 @@ public class EnemyController : MonoBehaviour
     public float damage;
     public float movementSpeed;
 
-    protected virtual void Start()
+    private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
@@ -26,28 +26,25 @@ public class EnemyController : MonoBehaviour
         currentHealth = maxHealth;
     }
 
-    protected virtual void FixedUpdate()
+    private void FixedUpdate()
     {
         Vector2 toPlayer = player.position - transform.position;
         toPlayer.Normalize();
 
         Move(toPlayer);
+
+        Debug.Log("Player PositionX: " + toPlayer.x + " Player PositionY: " + toPlayer.y);
     }
 
-    protected virtual void Move(Vector2 toTarget)
+    private void Move(Vector2 toTarget)
     {
-        bool shouldFlip = false;
+        rb.AddForce(toTarget * movementSpeed);
 
-        if (toTarget.x > 0 && sr.flipX) shouldFlip = true;
-        else if (toTarget.x < 0 && !sr.flipX) shouldFlip = true;
-
-        if (shouldFlip) sr.flipX = !sr.flipX;
-
-        rb.AddForce(toTarget * movementSpeed * Time.deltaTime);
-        // anim.SetBool("run", toTarget != Vector2.zero);
+        anim.SetBool("isRight", toTarget.x > 0);
+        anim.SetBool("isLeft", toTarget.x < 0);
     }
 
-    public virtual void TakeDamage(float damage, Vector2 knockbackDirection)
+    public void TakeDamage(float damage, Vector2 knockbackDirection)
     {
         currentHealth -= damage;
         if (currentHealth <= 0) DestroyEnemy();
@@ -55,7 +52,7 @@ public class EnemyController : MonoBehaviour
         rb.AddForce(knockbackDirection * knockbackForce, ForceMode2D.Impulse);
     }
 
-    protected virtual void DestroyEnemy()
+    private void DestroyEnemy()
     {
         Destroy(gameObject);
     }
@@ -69,7 +66,7 @@ public class EnemyController : MonoBehaviour
             knockbackDirection.Normalize();
 
             PlayerController player = collision.gameObject.GetComponent<PlayerController>();
-            player.TakeDamage(damage, knockbackDirection);
+            if (player.canDamage) player.TakeDamage(damage, knockbackDirection);
         }
     }
 }

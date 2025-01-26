@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
@@ -24,6 +25,9 @@ public class PlayerController : MonoBehaviour
     public float healthRegenRate, manaRegenRate;
     public Transform shootingPoint;
     public GameObject fireballPrefab;
+    public float iframeDuration;
+    public bool isInvincible = false;
+    public bool canDamage = true;
 
     public void OnMove(InputValue value)
     {
@@ -124,5 +128,19 @@ public class PlayerController : MonoBehaviour
             // Restart the level
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
+        StartCoroutine(InvincibilityCountdown());
+    }
+
+    private IEnumerator InvincibilityCountdown()
+    {
+        canDamage = false;
+        for (float i = 0f; i < iframeDuration; i += Time.deltaTime)
+        {
+            spriteRenderer.enabled = !spriteRenderer.enabled;
+            yield return null;
+        }
+
+        spriteRenderer.enabled = true;
+        canDamage = true;
     }
 }
