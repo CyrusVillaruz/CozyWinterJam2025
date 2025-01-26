@@ -27,6 +27,7 @@ public class EnemyController : MonoBehaviour
     public bool canDamage = true;
     public float movementSpeedBoost = 10;
     public float damageBoost = 10;
+    public Puzzle puzzle;
 
     private void Start()
     {
@@ -38,6 +39,10 @@ public class EnemyController : MonoBehaviour
         currentHealth = maxHealth;
         healthBar.maxValue = maxHealth;
         _playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
+        if (puzzle != null)
+        {
+            puzzle.enemies += 1;
+        }
     }
 
     private void Update()
@@ -100,6 +105,10 @@ public class EnemyController : MonoBehaviour
     private void DestroyEnemy()
     {
         _playerController.numWolvesSlain++;
+        if (puzzle != null)
+        {
+            puzzle.enemies -= 1;
+        }
         Destroy(gameObject);
     }
 
