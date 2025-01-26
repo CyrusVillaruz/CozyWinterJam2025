@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+using TMPro;
 using System.Collections;
 
 public class PlayerController : MonoBehaviour
@@ -9,6 +10,11 @@ public class PlayerController : MonoBehaviour
     [HideInInspector] public float acceleration;
     [HideInInspector] public Vector2 movementInput;
     [HideInInspector] public float currentHealth, currentMana;
+
+    // For future reference, consider moving these to a "GameManager" singleton instance
+    // managing the game elements instead
+    [HideInInspector] public int numWolvesSlain;
+    private int totalWolves;
 
     private Rigidbody2D rigidBody2D;
     private SpriteRenderer spriteRenderer;
@@ -24,6 +30,7 @@ public class PlayerController : MonoBehaviour
     public float maxHealth, maxMana;
     public float healthRegenRate, manaRegenRate;
     public float knockbackForce;
+    public TextMeshProUGUI wolvesSlainText;
 
     [Header("Fireball")]
     public Rigidbody2D rotator;
@@ -64,6 +71,8 @@ public class PlayerController : MonoBehaviour
 
         currentMana = maxMana;
         manaBar.SetMaxMana(maxMana);
+
+        totalWolves = GameObject.FindGameObjectsWithTag("Enemy").Length;
     }
 
 
@@ -77,11 +86,13 @@ public class PlayerController : MonoBehaviour
         else currentMana += manaRegenRate * Time.deltaTime;
         manaBar.SetMana(currentMana);
 
-        if (Keyboard.current.spaceKey.wasPressedThisFrame)
+        if (Keyboard.current.spaceKey.wasPressedThisFrame && currentMana >= fireballManaCost)
         {
             Instantiate(fireballPrefab, shootingPoint.position, shootingPoint.rotation);
             ConsumeMana(fireballManaCost);
         }
+
+        wolvesSlainText.text = "Wolves slain: " + numWolvesSlain + "/" + totalWolves;
     }
 
     private void FixedUpdate()

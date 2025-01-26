@@ -2,14 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemyController : MonoBehaviour
 {
+    // For future reference, consider moving this to a "GameManager" singleton instance
+    // managing the game elements instead
+    [SerializeField] private PlayerController _playerController;
+    
     [SerializeField] private Transform player;
+    [SerializeField] private Slider healthBar;
     private SpriteRenderer sr;
     private Rigidbody2D rb;
     private Animator anim;
     private bool isPlayerDetected = false;
+    private bool hasBoostedStats = false;
 
     public float maxHealth;
     public float currentHealth;
@@ -18,6 +25,8 @@ public class EnemyController : MonoBehaviour
     public float movementSpeed;
     public float iframeDuration;
     public bool canDamage = true;
+    public float movementSpeedBoost = 10;
+    public float damageBoost = 10;
 
     private void Start()
     {
@@ -27,6 +36,20 @@ public class EnemyController : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
         sr = GetComponent<SpriteRenderer>();
         currentHealth = maxHealth;
+        healthBar.maxValue = maxHealth;
+        _playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
+    }
+
+    private void Update()
+    {
+        if (currentHealth <= (maxHealth / 2) && !hasBoostedStats)
+        {
+            movementSpeed += movementSpeedBoost;
+            damage += damageBoost;
+            hasBoostedStats = true;
+        }
+
+        healthBar.value = currentHealth;
     }
 
     private void FixedUpdate()
@@ -35,8 +58,6 @@ public class EnemyController : MonoBehaviour
         toPlayer.Normalize();
 
         if (isPlayerDetected) Move(toPlayer);
-
-        Debug.Log("Player PositionX: " + toPlayer.x + " Player PositionY: " + toPlayer.y);
     }
 
     private void Move(Vector2 toTarget)
@@ -78,6 +99,7 @@ public class EnemyController : MonoBehaviour
 
     private void DestroyEnemy()
     {
+        _playerController.numWolvesSlain++;
         Destroy(gameObject);
     }
 
