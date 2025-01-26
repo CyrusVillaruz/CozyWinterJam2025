@@ -24,6 +24,7 @@ public class Torch : MonoBehaviour
         { 
             lit = true;
             animator.SetFloat("Lit", 1);
+            this.GetComponent<PuzzleCondition>().fulfill();
         }
     }
 
@@ -33,6 +34,7 @@ public class Torch : MonoBehaviour
         {
             lit = false;
             animator.SetFloat("Lit", 0);
+            this.GetComponent<PuzzleCondition>().unfulfill();
         }
     }
 }
