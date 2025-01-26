@@ -6,6 +6,10 @@ using UnityEngine.UI;
 
 public class EnemyController : MonoBehaviour
 {
+    // For future reference, consider moving this to a "GameManager" singleton instance
+    // managing the game elements instead
+    [SerializeField] private PlayerController _playerController;
+    
     [SerializeField] private Transform player;
     [SerializeField] private Slider healthBar;
     private SpriteRenderer sr;
@@ -33,6 +37,7 @@ public class EnemyController : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
         currentHealth = maxHealth;
         healthBar.maxValue = maxHealth;
+        _playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
     }
 
     private void Update()
@@ -94,6 +99,7 @@ public class EnemyController : MonoBehaviour
 
     private void DestroyEnemy()
     {
+        _playerController.numWolvesSlain++;
         Destroy(gameObject);
     }
 
