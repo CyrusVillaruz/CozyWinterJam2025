@@ -23016,6 +23016,8 @@ MonoBehaviour:
   movementSpeed: 60
   iframeDuration: 0.5
   canDamage: 1
+  movementSpeedBoost: 25
+  damageBoost: 10
 --- !u!58 &1869266532
 CircleCollider2D:
   m_ObjectHideFlags: 0

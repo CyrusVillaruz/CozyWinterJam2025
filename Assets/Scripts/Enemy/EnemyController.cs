@@ -10,6 +10,7 @@ public class EnemyController : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
     private bool isPlayerDetected = false;
+    private bool hasBoostedStats = false;
 
     public float maxHealth;
     public float currentHealth;
@@ -18,6 +19,8 @@ public class EnemyController : MonoBehaviour
     public float movementSpeed;
     public float iframeDuration;
     public bool canDamage = true;
+    public float movementSpeedBoost = 10;
+    public float damageBoost = 10;
 
     private void Start()
     {
@@ -29,14 +32,22 @@ public class EnemyController : MonoBehaviour
         currentHealth = maxHealth;
     }
 
+    private void Update()
+    {
+        if (currentHealth <= (maxHealth / 2) && !hasBoostedStats)
+        {
+            movementSpeed += movementSpeedBoost;
+            damage += damageBoost;
+            hasBoostedStats = true;
+        }
+    }
+
     private void FixedUpdate()
     {
         Vector2 toPlayer = player.position - transform.position;
         toPlayer.Normalize();
 
         if (isPlayerDetected) Move(toPlayer);
-
-        Debug.Log("Player PositionX: " + toPlayer.x + " Player PositionY: " + toPlayer.y);
     }
 
     private void Move(Vector2 toTarget)
