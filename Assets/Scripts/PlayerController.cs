@@ -27,6 +27,7 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed;
     public Vector2 faceDirection;
     public Vector2 moveDirection;
+    public Vector2 attackDirection;
     public float maxHealth, maxMana;
     public float healthRegenRate, manaRegenRate;
     public float knockbackForce;
@@ -50,6 +51,7 @@ public class PlayerController : MonoBehaviour
         { 
             faceDirection = movementInput; 
             moveDirection = movementInput * 2;
+            attackDirection = movementInput * 3;
         }
     }
 
@@ -103,8 +105,12 @@ public class PlayerController : MonoBehaviour
     private IEnumerator Slash()
     {
         shootingPoint.GetComponent<Sword>().attacking = true;
-        yield return new WaitForSeconds(0.3f);
+        animator.SetFloat("MoveX", attackDirection.x);
+        animator.SetFloat("MoveY", attackDirection.y);
+        yield return new WaitForSeconds(0.5f);
         shootingPoint.GetComponent<Sword>().attacking = false;
+        animator.SetFloat("MoveX", faceDirection.x);
+        animator.SetFloat("MoveY", faceDirection.y);
     }
 
     private void FixedUpdate()
