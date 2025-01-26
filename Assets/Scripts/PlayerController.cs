@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class PlayerController : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private Vector2 noMovement = new Vector2(0, 0);
     private Animator animator;
+    public float knockbackForce;
 
     public Rigidbody2D rotator;
     public PlayerBars healthBar, manaBar;
@@ -108,5 +110,19 @@ public class PlayerController : MonoBehaviour
     public void ConsumeMana(float mana)
     {
         currentMana -= mana;
+    }
+
+    public void TakeDamage(float damage, Vector2 knockbackDirection)
+    {
+        currentHealth -= damage;
+        healthBar.SetHealth(currentHealth);
+
+        rigidBody2D.AddForce(knockbackDirection * knockbackForce, ForceMode2D.Impulse);
+
+        if (currentHealth <= 0)
+        {
+            // Restart the level
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
     }
 }
