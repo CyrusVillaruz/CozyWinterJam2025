@@ -2,10 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemyController : MonoBehaviour
 {
     [SerializeField] private Transform player;
+    [SerializeField] private Slider healthBar;
     private SpriteRenderer sr;
     private Rigidbody2D rb;
     private Animator anim;
@@ -30,6 +32,7 @@ public class EnemyController : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
         sr = GetComponent<SpriteRenderer>();
         currentHealth = maxHealth;
+        healthBar.maxValue = maxHealth;
     }
 
     private void Update()
@@ -40,6 +43,8 @@ public class EnemyController : MonoBehaviour
             damage += damageBoost;
             hasBoostedStats = true;
         }
+
+        healthBar.value = currentHealth;
     }
 
     private void FixedUpdate()
