@@ -26,7 +26,7 @@ public class Sword : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.CompareTag("Enemy") && attacking)
+        if (collision.CompareTag("Enemy") && attacking && collision.isTrigger == false)
         {
             EnemyController enemyRef = collision.gameObject.GetComponent<EnemyController>();
             if (enemyRef.canDamage) enemyRef.TakeDamage(damage);
